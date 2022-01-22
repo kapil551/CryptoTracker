@@ -16,6 +16,7 @@ Crypto Price Tracker Application built using react-native
         - signup
         - login
 
+    - 
 
 3. Building the Project:
 

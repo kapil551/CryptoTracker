@@ -1,7 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
 
-import HomeScreen from "./src/screens/HomeScreen/homeScreen";
+// import HomeScreen from "./src/screens/HomeScreen/homeScreen";
+import CoinDetailsScreen from "./src/screens/CoinDetailsScreen/coinDetailsScreen";
 
 export default function App() {
 
@@ -11,7 +12,10 @@ export default function App() {
     <View style={styles.container}>
 
       {/* HomeScreen of the app */}
-      <HomeScreen />
+      {/* <HomeScreen /> */}
+
+      {/* CoinDetailsScreen of the app */}
+      <CoinDetailsScreen />
 
       <StatusBar style="light" />
     </View>
