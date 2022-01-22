@@ -14,3 +14,7 @@ Crypto Price Tracker Application built using react-native
         - https://docs.expo.dev/guides/icons/
 
         - https://icons.expo.fyi/
+    
+    2. Building the list of coins using ```FlatList``` component inside react-native:
+
+        - https://reactnative.dev/docs/flatlist
