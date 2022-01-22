@@ -1,11 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, View } from "react-native";
+import CoinItem from "./src/components/CoinItem/coinItem";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      
+      {/* coinItem component */}
+      <CoinItem name={'Bitcoin'} rank={'1'} />
+      <CoinItem name={'Ethereum'} rank={'2'} />
+      <CoinItem name={'Binance Coin'} rank={'3'} />
+
+      <StatusBar style="light" />
     </View>
   );
 }
@@ -13,8 +19,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#121212",
+    paddingTop: 50,
   },
 });
