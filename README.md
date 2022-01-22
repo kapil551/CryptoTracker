@@ -7,7 +7,17 @@ Crypto Price Tracker Application built using react-native
 
 ![](../coin_item.PNG)
 
-2. Building the Project:
+2. Future Features to be added:
+
+    - Theme Change (toggle b/w light and dark theme)
+
+    - Authentication and Authoriation:
+
+        - signup
+        - login
+
+
+3. Building the Project:
 
     1. Adding icons using expo vector icons:
 

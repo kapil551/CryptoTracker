@@ -20,6 +20,10 @@ const CoinItem = ({ marketCoin }) => {
     image
   } = marketCoin;
 
+  const percentageChangeColor = price_change_percentage_24h < 0 ? '#ea3943' : '#16c784';
+
+  const IconName = price_change_percentage_24h < 0 ? "caretdown" : "caretup";
+
   return (
     <View style={styles.coinContanier}>
       <Image
@@ -42,12 +46,12 @@ const CoinItem = ({ marketCoin }) => {
           </View>
           <Text style={styles.text}> { symbol.toUpperCase() } </Text>
           <AntDesign
-            name="caretdown"
+            name={IconName}
             size={14}
-            color="white"
+            color={ percentageChangeColor }
             style={{ alignSelf: "center", marginRight: 5 }}
           />
-          <Text style={styles.text}> { price_change_percentage_24h.toFixed(2) }% </Text>
+          <Text style={{ color: percentageChangeColor }}> { price_change_percentage_24h.toFixed(2) }% </Text>
         </View>
       </View>
 
