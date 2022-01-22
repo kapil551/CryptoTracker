@@ -29,3 +29,12 @@ Crypto Price Tracker Application built using react-native
     2. Building the list of coins using ```FlatList``` component inside react-native:
 
         - https://reactnative.dev/docs/flatlist
+    
+    3. Adding nice animated charts:
+
+
+        - https://github.com/rainbow-me/react-native-animated-charts
+
+        - https://docs.expo.dev/versions/latest/sdk/reanimated/
+        
+        - https://www.npmjs.com/package/@rainbow-me/animated-charts
